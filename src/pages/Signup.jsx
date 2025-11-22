@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Line from "../components/Line.jsx";
+import Line from "../components/line.jsx";
 
 const Signup = () => {
   const [name, setName] = useState("");
