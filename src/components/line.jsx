@@ -1,6 +1,6 @@
 import react from "react";
 
-const line = () =>{
+const Line = () =>{
     return(
         <>
         <div className="m-5 border-b border-gray-700">
@@ -9,4 +9,4 @@ const line = () =>{
     )
 } 
 
-export default line;
+export default Line;

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Line from "../components/Line.jsx";
 
 const Signup = () => {
   const [name, setName] = useState("");
@@ -24,6 +25,7 @@ const Signup = () => {
   };
   return (
     <>
+    <Line/>
       <div className="mt-10">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-white font-bold text-3xl ">
